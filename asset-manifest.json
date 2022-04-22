@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/VidyaPatong/static/css/main.62f72197.chunk.css",
-    "main.js": "/VidyaPatong/static/js/main.e3e30eef.chunk.js",
-    "main.js.map": "/VidyaPatong/static/js/main.e3e30eef.chunk.js.map",
+    "main.js": "/VidyaPatong/static/js/main.f17ceb7b.chunk.js",
+    "main.js.map": "/VidyaPatong/static/js/main.f17ceb7b.chunk.js.map",
     "runtime-main.js": "/VidyaPatong/static/js/runtime-main.00e6b2e8.js",
     "runtime-main.js.map": "/VidyaPatong/static/js/runtime-main.00e6b2e8.js.map",
     "static/js/2.c66c8044.chunk.js": "/VidyaPatong/static/js/2.c66c8044.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.00e6b2e8.js",
     "static/js/2.c66c8044.chunk.js",
     "static/css/main.62f72197.chunk.css",
-    "static/js/main.e3e30eef.chunk.js"
+    "static/js/main.f17ceb7b.chunk.js"
   ]
 }
