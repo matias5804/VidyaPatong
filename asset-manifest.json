@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/VidyaPatong/static/css/main.62f72197.chunk.css",
+    "main.js": "/VidyaPatong/static/js/main.e3e30eef.chunk.js",
+    "main.js.map": "/VidyaPatong/static/js/main.e3e30eef.chunk.js.map",
+    "runtime-main.js": "/VidyaPatong/static/js/runtime-main.00e6b2e8.js",
+    "runtime-main.js.map": "/VidyaPatong/static/js/runtime-main.00e6b2e8.js.map",
+    "static/js/2.c66c8044.chunk.js": "/VidyaPatong/static/js/2.c66c8044.chunk.js",
+    "static/js/2.c66c8044.chunk.js.map": "/VidyaPatong/static/js/2.c66c8044.chunk.js.map",
+    "index.html": "/VidyaPatong/index.html",
+    "static/css/main.62f72197.chunk.css.map": "/VidyaPatong/static/css/main.62f72197.chunk.css.map",
+    "static/js/2.c66c8044.chunk.js.LICENSE.txt": "/VidyaPatong/static/js/2.c66c8044.chunk.js.LICENSE.txt",
+    "static/media/comoComprar.11ebb68d.jpg": "/VidyaPatong/static/media/comoComprar.11ebb68d.jpg",
+    "static/media/envios.845b5356.jpg": "/VidyaPatong/static/media/envios.845b5356.jpg",
+    "static/media/fotoContacto.a248df36.jpg": "/VidyaPatong/static/media/fotoContacto.a248df36.jpg",
+    "static/media/iconoComoComprar.9e6d778b.png": "/VidyaPatong/static/media/iconoComoComprar.9e6d778b.png",
+    "static/media/iconoComoPagar.12d4145e.png": "/VidyaPatong/static/media/iconoComoPagar.12d4145e.png",
+    "static/media/iconoEnvio.4efbb748.png": "/VidyaPatong/static/media/iconoEnvio.4efbb748.png",
+    "static/media/iconoInstagram.8add469b.png": "/VidyaPatong/static/media/iconoInstagram.8add469b.png",
+    "static/media/imagenNosotros.1a800959.jpg": "/VidyaPatong/static/media/imagenNosotros.1a800959.jpg",
+    "static/media/logoHorizontal.48bb3720.png": "/VidyaPatong/static/media/logoHorizontal.48bb3720.png",
+    "static/media/logoPrimeroIcon.9cb0427f.jpg": "/VidyaPatong/static/media/logoPrimeroIcon.9cb0427f.jpg",
+    "static/media/mediosDePagos.39f2483f.jpg": "/VidyaPatong/static/media/mediosDePagos.39f2483f.jpg",
+    "static/media/cta.css": "/VidyaPatong/static/media/portada.5f6f52bc.jpg",
+    "static/media/secBolsa.f80affdd.jpg": "/VidyaPatong/static/media/secBolsa.f80affdd.jpg",
+    "static/media/secClima.e0f6c5bc.jpg": "/VidyaPatong/static/media/secClima.e0f6c5bc.jpg",
+    "static/media/secPlasticos.3616ab76.jpg": "/VidyaPatong/static/media/secPlasticos.3616ab76.jpg",
+    "static/media/secSorbete.e5ab5f8c.jpg": "/VidyaPatong/static/media/secSorbete.e5ab5f8c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00e6b2e8.js",
+    "static/js/2.c66c8044.chunk.js",
+    "static/css/main.62f72197.chunk.css",
+    "static/js/main.e3e30eef.chunk.js"
+  ]
+}
