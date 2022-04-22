@@ -147,4 +147,15 @@
 
 }
 
-        
+@media (min-width:1000px){
+    .facilidades {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 100%; 
+        width: 750px;
+        margin: 0 auto;
+        padding: 3rem 0;
+        justify-content: space-around;
+    }
+}

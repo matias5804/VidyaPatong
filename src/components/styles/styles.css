@@ -22,6 +22,9 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    justify-items: center;
+    padding-top: 1rem;
+    width: 100%;
 }
 
 .card{
@@ -98,7 +101,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color:#356d65ff ;
+    background-color: #356d65ff;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
 }
 
 .activeClass{ /*  el boton que esta activo */
@@ -124,6 +130,18 @@ body {
 }
 
 /*---------------------------------------------------------*/
+/*inicio de los estilos a partir de los 600px*/
+@media (min-width:425px) {
+    .tienda{
+        width: 425px;
+        margin: 0 auto;
+    }
+    .navSelecProducts {
+        width: 425px;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+} 
 
 /*inicio de los estilos a partir de los 600px*/
 @media (min-width:600px) { 
@@ -132,8 +150,12 @@ body {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         justify-items: center;
+        margin: 0 auto;
+        width: 600px;
     }
-    
+    .navSelecProducts {
+        width: 600px;
+    }
    /*---------------------------------------------------*/
    /*Menu que filtra los productos*/
     .linksProducts a{
@@ -150,8 +172,28 @@ body {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         justify-items: center;
+        width: 970px;
+        grid-row-gap: 2rem;
+        margin: 0 auto;
+        padding-top: 1rem;
     }
+    .navSelecProducts {
+        width: 970px;
+    }
+    .card{
+        width: 170px;
+        height: 280px;
+    }
+    .div_imgCard {
+        height: 175px;
+    }
+    
+    .divProPreBot h3 ,
+    .divProPreBot  button, 
+    .divProPreBot p{
 
+        font-size: larger;
+    }
    /*---------------------------------------------------*/
    /*Menu que filtra los productos*/
    .linksProducts a{

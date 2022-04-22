@@ -1,7 +1,7 @@
 import React from 'react';
 import CartWidget from '../cartwidget/CartWidget';
 import logoHorizontal from '../../assets/imgLogos/logoHorizontal.png';
-import '../styles/navBar.css';
+import '../styles/navBarDos.css';
 import { Link} from 'react-router-dom';
 import Nosotros from '../pages/Nosotros';
 import Contacto from '../pages/Contacto';
@@ -19,7 +19,7 @@ const NavBar = () => {
             <ul className="nav__container">
 
                 <li className="nav__item">
-                    <Link to="/" className='navLink' >
+                    <Link to="../pages/Tienda" className='navLink' >
                         TIENDA
                     </Link>
                 </li>

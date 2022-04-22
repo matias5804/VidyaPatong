@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { ItemList } from '../itemList/ItemList';
 import { useParams } from 'react-router-dom';
-import { getFirestore } from '../../firebase/Firebase';
+//import { getFirestore } from '../../firebase/Firebase';
 import Loader from '../animation/Spinner';
 import '../styles/styles.css';
+import MockedItem from '../mock/MockedItem';
+import { Categories } from '../mock/Categorias';
 
 export const ItemListContainer = () => {
 
@@ -12,39 +14,20 @@ export const ItemListContainer = () => {
   const { catId } = useParams();
 
     useEffect(() => {
+    setLoading(true);
+    const getItems = new Promise((resolve) => {
+      setTimeout(() => {
+        const myData = catId
+          ? MockedItem.filter((item) => item.category === catId)
+          : MockedItem;
 
-      setLoading (true);
-      const bd = getFirestore();
-      const itemCollection = bd.collection('items');
+        resolve(myData);
+      }, 1000);
+    });
 
-      itemCollection.get().then((value) => {
-
-        let datos= value.docs.map((e) => { 
-        return {...e.data(), id: e.id}
-        });
-
-        const getItems = new Promise ((resolve) => {
-
-          setTimeout(() => {
-
-            const myData = catId 
-            ?
-            datos.filter((item) => item.category === catId)
-            :
-            datos;
-            
-            resolve(myData);
-
-          }, 2000); 
-
-        })
-
-        getItems.then((res) => {
-          setItems(res)
-        }).finally(() => setLoading(false));
-      
-      });
-
+    getItems.then((res) => {
+      setItems(res)
+    }).finally(() => setLoading(false));
     },[catId]) ;
 
   return loading ? (
@@ -52,6 +35,7 @@ export const ItemListContainer = () => {
       <Loader />
     </div>) 
     : (<div>
+        <Categories/>
         <ItemList items={items} />
       </div>)
 };

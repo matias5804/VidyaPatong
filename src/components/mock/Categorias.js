@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const Categories = () => {
     const categories = [
-      { id: '1Total', address: '/', text: 'Todos' },
+      { id: '1Total', address: '/pages/Tienda', text: 'Todos' },
       { id: '2daCat', address: '/category/Personal', text: 'Cuidado Personal' },
       { id: '3eraCat', address: '/category/Hogar', text: 'Cuidado del Hogar' },
     ];
