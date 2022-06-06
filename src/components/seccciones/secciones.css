@@ -42,6 +42,7 @@
     .divSeccion{
         display: flex;
         padding: 0;
+        padding: 1rem;
     }
 
     .secSorbete,
@@ -136,7 +137,7 @@
     }
 
     .divImgSec img {
-        height: 450px;
+        height: 420px;
     }
 
     .divImgSorbete img {
@@ -144,7 +145,7 @@
     }
 
     .imgPlasticos{
-        height: 450px !important;
+        height: 420px !important;
     }
     
 }

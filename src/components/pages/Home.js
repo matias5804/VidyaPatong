@@ -4,6 +4,7 @@ import SecBolsas from '../seccciones/SecBolsas'
 import SecClima from '../seccciones/SecClima'
 import SecPlasticos from '../seccciones/SecPlasticos'
 import SecSolidos from '../seccciones/SecSorbete'
+//import Mar from '../mar/Mar.js'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <hr/>
       <SecSolidos/>
       <hr/>
+
     </div>
   )
 }

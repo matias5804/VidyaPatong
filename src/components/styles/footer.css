@@ -58,6 +58,7 @@ body {
     font-weight: 500;/*ancho de le letra*/
     background-color: #f1cbb5ff;
     border-radius: 4px;
+    outline: none;
 }
 
 .footer__btn:hover{   
